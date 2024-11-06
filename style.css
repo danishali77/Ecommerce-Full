@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all-container{background-color: #f7f5f2;}
+html ::-webkit-scrollbar-track{background: transparent;}
+html ::-webkit-scrollbar-thumb{background: #b2744c;border-radius: 10px;}
+html ::-webkit-scrollbar{width: 10px;}
+#navbar{background-color: #b2744c;}
+#logo img{border-radius: 10px; width: 140px; margin-left: 40px;}
+.navbar-nav{margin-left:50px ;}
+.nav-item .nav-link{
+    color: black;
+    margin-left: 10px; 
+    transition: 0.5s;
+    font-weight: bold;
+}
+.nav-item .nav-link:hover{background-color: white;border-radius: 5PX;}
+#navbar form button{background-color: black;color: white; border: 1px solid white;}
